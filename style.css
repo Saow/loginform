@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+main{
+    height: 35vh auto;
+    padding-bottom: 20px;
+    min-width: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-image: linear-gradient(to top, rgba(20, 20, 20, 0.5), rgba(51, 54, 179, 0.5));
+}
+input{
+    background: rgba(255, 255, 255, 0.301);
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+    width: 250px;
+    transition: all 0.3s ease;
+}
+input:placeholder-shown{
+    background-color: rgba(129, 126, 126, 0.39);
+}
+/* placeholder text color */
+input::placeholder{
+    color: white;
+}
+label{
+    color: white;
+    margin-right: 160px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form{
+    align-items: center;
+    /* space between */
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+/* button type submit*/
+button[type="submit"]{
+    background-color: #fcfcfc;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+    width: 250px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+
+}
+button[type="submit"]:hover{
+    background-color: #e6e6e648;
+}
+.social button{
+    background-color: rgba(129, 126, 126, 0.39);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.social button:hover{
+    background-color: #e6e6e648;
+    cursor: pointer;
+}
+.register{
+    color: white;
+    font-size: 15px;
+}
+.register a:hover{
+    color: #e6e6e648;
+    cursor: pointer;
+}
+.forgot a:hover{
+    color: #e6e6e648;
+    cursor: pointer;
+}
